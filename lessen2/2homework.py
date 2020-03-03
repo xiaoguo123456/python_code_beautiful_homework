@@ -16,8 +16,6 @@ def sum_yinshu(n):
 for i in range(1000,10000):
     if i in zhenyinshu.values():
         continue
-    if i in zhenyinshu.keys():
-        continue
     y=sum_yinshu(i)
     if i==sum_yinshu(y):
         if y>=1000 and y<=9999:

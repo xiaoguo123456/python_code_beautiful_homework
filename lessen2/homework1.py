@@ -24,7 +24,7 @@ for i in range(25):
                     else:
                         b=b-10
                 a=a-1
-            print('%2d-%2d=%2d' % (a,b,a-b),sep='',end='    ')
+            print('%3d-%2d=%3d' % (a,b,a-b),sep='',end='    ')
         if jia_or_jian=='+':
             while (a%10)+(b%10)<10:
                 while a%10<9:
@@ -36,5 +36,5 @@ for i in range(25):
                     a=a-10
                 while b>10:
                     b=b-10
-            print('%2d+%2d=%2d' % (a,b,a+b),sep='',end='    ')
+            print('%3d+%2d=%3d' % (a,b,a+b),sep='',end='    ')
     print()
