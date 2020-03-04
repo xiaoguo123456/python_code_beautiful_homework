@@ -22,7 +22,7 @@ while True:
         if total_num==100:
             break
     if c_op=='-':
-        while (a%10>b%10) or (a-b<0):
+        while (a%10>=b%10) or (a-b<0):
             a=random.randint(0,100)
             b=random.randint(0,100)
         print('%3d-%2d=%3d' % (a,b,a-b),sep='',end='\t')
