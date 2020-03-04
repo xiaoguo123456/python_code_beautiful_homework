@@ -4,7 +4,7 @@
 import random
 
 
-hang=0
+
 total_num=0
 op=['-','+']
 while True:
