@@ -17,7 +17,7 @@ for i in range(25):
         if a<b:
             a,b=b,a
         if jia_or_jian=='-':
-            while (a%10)>(b%10):
+            while (a%10)>=(b%10):
                 if a-b<10:
                     if a<10:
                         a=a+10
